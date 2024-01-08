@@ -55,6 +55,7 @@
   width: 1140px;
   margin-top: 100px;
   width: 95%;
+  margin-bottom: 100px;
   /* border: 1px solid blue; */
 
   display: flex;
@@ -186,9 +187,8 @@
 
 .input__box {
   display: flex;
-  border-left: 2px solid #040404;
-  border-bottom: 2px solid #040404;
-  border-right: 2px solid #040404;
+  border: 2px solid #040404;
+  margin-top: 10px;
 }
 
 .input_box_list_title {
@@ -201,12 +201,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 900px;
   height: 50px;
   border-left: 2px solid #040404;
 }
 .input_title {
-  width: 450px;
+  width: 600px;
   height: 20px;
   padding-left: 5px;
+}
+
+.input_content_box {
+  display: flex;
+
+  border-bottom: 2px solid #040404;
+  border-left: 2px solid #040404;
+  border-right: 2px solid #040404;
+}
+.input_content_box_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.input_content_box_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 900px;
+  height: 500px;
+
+  border-left: 2px solid #040404;
+}
+.input_content {
+  width: 600px;
+  height: 400px;
+  padding-left: 5px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #040404;
 }

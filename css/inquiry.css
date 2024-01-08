@@ -191,3 +191,33 @@
   font-family: "GmarketSansMedium";
   border: 3px solid #64c8c8;
 }
+
+/* 문의 내역 내용게시판 */
+.inquiry_title_box {
+  width: 1140px;
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.list_title__01 {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+.list_title__02 {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.list_title__03 {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+}
