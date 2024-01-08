@@ -55,7 +55,6 @@
   width: 1140px;
   margin-top: 100px;
   width: 95%;
-  margin-bottom: 100px;
   /* border: 1px solid blue; */
 
   display: flex;
@@ -158,9 +157,6 @@
   font-size: 25px;
 }
 
-.order__details {
-  width: 1140px;
-}
 /* order__data */
 .order__data {
   padding-bottom: 10px;
@@ -170,81 +166,96 @@
   font-weight: 700;
   font-family: "GmarketSansMedium";
 }
-/* main__order */
 
-/* 1 : 1 문의게시판 */
-/* saved_title_box */
-.writinginquiries_btn {
+/* 교환/반품 상세 정보 */
+.exchange_details_title_box {
   display: flex;
+  width: 1140px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.product_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 850px;
+  font-size: 18px;
+}
+.progress_status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  font-size: 18px;
+}
+
+.exchange_details_content_box {
+  display: flex;
+  width: 1140px;
+  border-bottom: 1px solid #040404;
+}
+
+.product_details_box {
+  display: flex;
+
+  width: 850px;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product_img_box {
+  width: 110px;
+  height: 110px;
+}
+#img_01 {
+  width: 110px;
+  height: 110px;
+}
+
+.product_data_box {
+  padding-left: 20px;
+}
+
+.product_details_list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.progress_status_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  font-size: 30px;
+  color: red;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.return_cause {
+  width: 1140px;
+  display: flex;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.return_data {
   padding-top: 10px;
-  height: 30px;
-  flex-direction: row-reverse;
-}
-.btn:hover {
-  background-color: white;
-  font-family: "GmarketSansMedium";
-  border: 1px solid #64c8c8;
+  padding-bottom: 10px;
 }
 
-.input__box {
+.exchange_data_box {
+  border-bottom: 1px solid #d4d4d4;
+  width: 1140px;
+  margin-bottom: 100px;
+}
+
+.exchange_data_list {
   display: flex;
-  /* border: 2px solid #040404; */
-  border-bottom: 2px solid #d4d4d4;
-
-  margin-top: 10px;
+  padding-top: 20px;
 }
-
-.input_box_list_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.exchange_data_address {
+  padding-right: 30px;
   width: 200px;
-  border-right: 2px solid #d4d4d4;
-}
-.input_box_list_content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 900px;
-  height: 50px;
-  /* border-left: 2px solid #040404; */
-}
-.input_title {
-  width: 600px;
-  height: 20px;
-  padding-left: 5px;
-}
-
-.input_content_box {
-  display: flex;
-
-  border-bottom: 2px solid #d4d4d4;
-}
-.input_content_box_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-}
-.input_content_box_content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 900px;
-  height: 500px;
-
-  border-left: 2px solid #d4d4d4;
-}
-.input_content {
-  width: 600px;
-  height: 400px;
-  padding-left: 5px;
-  resize: none;
-}
-
-#a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #040404;
 }

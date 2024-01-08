@@ -428,11 +428,12 @@ p {
   display: flex;
   padding-top: 10px;
   flex-direction: row-reverse;
+  height: 30px;
 }
-.btn {
+.btn:hover {
   background-color: white;
   font-family: "GmarketSansMedium";
-  border: 3px solid #64c8c8;
+  border: 1px solid #64c8c8;
 }
 
 a {

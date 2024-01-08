@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/savedmoney.css" />
+    <link rel="stylesheet" href="../css/exchangedetails.css" />
   </head>
   <body>
     <div>
       <header></header>
 
-      <!-- 적립금 페이지 -->
+      <!-- 교환/반품 상세 페이지 -->
       <main>
         <div class="main__mypage">
           <section class="main__menu">
@@ -62,28 +62,49 @@
               </article>
             </div>
 
-            <!-- 적림금 내역! -->
+            <!-- 교환/반품 내역! -->
             <div class="order__details">
-              <h4 class="order__data">적립금 내역</h4>
+              <h4 class="order__data">교환/반품 상품 정보</h4>
             </div>
 
-            <div class="main__order">적립금 내역이 없습니다.</div>
-
-            <div class="saved_title_box">
-              <div class="list_title__01">날짜</div>
-              <div class="list_title__01">내용</div>
-              <div class="list_title__01">금액</div>
+            <div class="exchange_details_title_box">
+              <div class="product_details">상품정보</div>
+              <div class="progress_status">진행상태</div>
             </div>
 
-            <div class="saved_box">
-              <div class="list__01">2024-00-00</div>
-              <div class="list__01">신규회원 쇼핑지원금</div>
-              <div class="list__01"><p class="p_moeny">+1,000원</p></div>
+            <section class="exchange_details_content_box">
+              <div class="product_details_box">
+                <div class="product_img_box">
+                  <img src="../img/pocket_number01.png" id="img_01" alt="" />
+                </div>
+                <div class="product_data_box">
+                  <ul class="product_details_list">
+                    <li>상품 제목</li>
+                    <li>상품 종류</li>
+                    <li>가격</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="progress_status_data">교환완료</div>
+            </section>
+
+            <div class="return_cause">
+              <p class="return_data">교환 이유 : 그냥</p>
             </div>
-            <div class="saved_box">
-              <div class="list__01">2024-00-00</div>
-              <div class="list__01">구매 후기적립금</div>
-              <div class="list__01"><p class="p_moeny">+300원</p></div>
+
+            <div class="order__details">
+              <h4 class="order__data">반송지 정보</h4>
+            </div>
+
+            <div class="exchange_data_box">
+              <section class="exchange_data_list">
+                <div class="exchange_data_address">반품 주소</div>
+                <div>서울특별시 노원구 상계로1길34 5층</div>
+              </section>
+              <section class="exchange_data_list">
+                <div class="exchange_data_address">연락처</div>
+                <div>010-0000-0000</div>
+              </section>
             </div>
           </section>
         </div>
