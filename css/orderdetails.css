@@ -1,0 +1,436 @@
+.main__mypage {
+  width: 1300px;
+
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "GmarketSansMedium";
+}
+
+/* 폰트 설정 */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* main_left */
+.main__menu {
+  margin-top: 50px;
+  width: 15%;
+  /* border: 1px solid black; */
+}
+
+.mypage_list {
+  list-style-type: none;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 20px;
+
+  font-family: "GmarketSansMedium";
+  font-weight: 300;
+}
+
+.li_list_a {
+  text-decoration: none;
+  color: rgb(70, 170, 170);
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #040404;
+}
+
+.li_list {
+  margin-bottom: 20px;
+}
+
+/* main_right */
+
+.main__section {
+  margin-top: 100px;
+  width: 95%;
+  /* border: 1px solid blue; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* main_right_top */
+
+.main__top {
+  width: 1050px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 100px;
+  /* border: 1px solid red; */
+}
+
+.member_box {
+  display: flex;
+  margin-top: 70px;
+}
+
+.member_box_img {
+  width: 110px;
+  height: 85px;
+}
+
+.member_box_img_a {
+  width: 100px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.member_information {
+  display: block;
+  width: 700px;
+  margin-left: 30px;
+
+  border-right: thick solid #64c8c8;
+}
+
+.member_information_name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+
+  font-family: "GmarketSansMedium";
+  font-weight: 500;
+  font-size: 22px;
+  color: rgb(4, 4, 4);
+}
+
+.member_information_accumulated_amount {
+  font-family: "GmarketSansMedium";
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(4, 4, 4);
+}
+
+.saved_money {
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.saved_money_name {
+  font-family: "GmarketSansMedium";
+  font-weight: 300;
+  font-size: 15px;
+
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.saved_money_amount {
+  font-family: "GmarketSansMedium";
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.saved_money_name_a {
+  text-decoration-line: none;
+  color: rgb(4, 4, 4);
+}
+
+.saved_money_amount_a {
+  text-decoration-line: none;
+  color: rgb(4, 4, 4);
+}
+
+/* 주문상세 내역 */
+/* main__title */
+
+.order_date {
+  display: flex;
+}
+
+.date_number {
+  padding-top: 20px;
+  padding-right: 5px;
+}
+.date_number_data {
+  padding-top: 20px;
+}
+.order_number {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.order_number_data {
+  padding-top: 20px;
+}
+
+.delivery_status {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* h4 태그 */
+.order__data {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #64c8c8;
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: "GmarketSansMedium";
+}
+
+/* 주문상품 정보 */
+
+.order__product_title {
+  display: flex;
+  height: 70px;
+  border-bottom: 1px solid #040404;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.order_title {
+  width: 700px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.order_money {
+  width: 200px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.order_rogress_status {
+  width: 240px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* 상품이미지/ 상품정보 */
+.order__product_data {
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.order_title_data {
+  width: 700px;
+  display: flex;
+}
+
+.product_img_box {
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.product_img {
+  width: 80px;
+  height: 80px;
+}
+
+.product_list_box {
+  width: 620px;
+}
+
+.product_list {
+  margin-top: 35px;
+  list-style-type: none;
+}
+
+.product_img_a {
+  text-decoration: none;
+  color: #040404;
+}
+
+.order_product_money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.order_product_state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 240px;
+}
+
+.delivery_information {
+  display: flex;
+}
+
+.delivery_number {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* 구매자 정보 */
+
+.my_information_box {
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.my_order_name {
+  display: flex;
+  width: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  border-right: 1px solid #d4d4d4;
+}
+
+.my_name {
+  width: 400px;
+  padding: 15px;
+}
+
+.my_mail {
+  display: flex;
+  width: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+}
+
+.my_mail_address {
+  width: 400px;
+  margin: 15px;
+}
+
+/* 결제정보 */
+.my__payment {
+  width: 1140px;
+}
+
+.my_payment_box {
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.order_amount_box {
+  width: 300px;
+  height: 200px;
+
+  border-right: 1px solid #d4d4d4;
+}
+
+.amount_box_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.moeny_title {
+  padding-left: 40px;
+}
+
+.moeny {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.discount_amount_box {
+  width: 300px;
+  height: 200px;
+
+  border-right: 1px solid #d4d4d4;
+}
+
+.payment_amount_box {
+  width: 540px;
+}
+
+/* p태그 */
+p {
+  font-size: 20px;
+}
+
+.amount_box_center {
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.moeny_amount {
+  padding-left: 50px;
+  font-size: 10px;
+}
+
+.moeny_two {
+  display: flex;
+}
+
+.won {
+  padding-right: 30px;
+  font-size: 13px;
+}
+
+.amount {
+  font-size: 15px;
+}
+
+.order_amount_total {
+  width: 550px;
+  height: 200px;
+}
+
+/* 배송지 정보 */
+.my__delivery_address {
+  width: 1140px;
+  margin-bottom: 100px;
+}
+
+.address_box {
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+}
+.address_section_list {
+  border-right: 1px solid #d4d4d4;
+}
+.address_name {
+  width: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.address_name_data {
+  width: 430px;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.address_section_list_box {
+  border-left: 1px solid #d4d4d4;
+}
+
+.exchange_btn {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row-reverse;
+}
+.btn {
+  background-color: white;
+  font-family: "GmarketSansMedium";
+  border: 3px solid #64c8c8;
+}

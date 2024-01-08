@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/orderdetails.css" />
+  </head>
+  <body>
+    <div>
+      <header></header>
+
+      <main>
+        <div class="main__mypage">
+          <!-- 마이페이지 메뉴리스트 -->
+          <section class="main__menu">
+            <ul class="mypage_list">
+              <li class="li_list">
+                <a href="" class="li_list_a">주문 조회</a>
+              </li>
+              <li class="li_list">
+                <a href="" class="li_list_a">교환/반품</a>
+              </li>
+              <li class="li_list"><a href="" class="li_list_a">적립금</a></li>
+              <li class="li_list"><a href="" class="li_list_a">1:1문의</a></li>
+              <li class="li_list">
+                <a href="" class="li_list_a">정보 수정</a>
+              </li>
+              <li class="li_list"><a href="" class="li_list_a">회원탈퇴</a></li>
+            </ul>
+          </section>
+
+          <section class="main__section">
+            <div class="main__top">
+              <!-- 프로필 이미지 -->
+              <article class="member_box">
+                <div class="member_box_img">
+                  <a href=""
+                    ><img
+                      src="../img/user_img.png"
+                      class="member_box_img_a"
+                      alt=""
+                  /></a>
+                </div>
+
+                <!-- 회원이름 및 누적 금액 -->
+                <div class="member_information">
+                  <div class="member_information_name">
+                    신동억 님 안녕하세요
+                  </div>
+                  <div class="member_information_accumulated_amount">
+                    누적 구매금액 : 0 원
+                  </div>
+                </div>
+
+                <!-- 적립금표시 -->
+                <div class="saved_money">
+                  <div class="saved_money_name">
+                    <a href="" class="saved_money_name_a">적립금</a>
+                  </div>
+                  <div class="saved_money_amount">
+                    <a href="" class="saved_money_amount_a">5,000</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- 주문 상세내역 -->
+            <div class="order__details">
+              <h4 class="order__data">주문상세 내역</h4>
+              <div class="order_date">
+                <div class="date_number">주문일자</div>
+                <div class="date_number_data">2024.00.00</div>
+                <div class="order_number">주문번호</div>
+                <div class="order_number_data">0000000000</div>
+              </div>
+
+              <!-- 배송 현황 -->
+              <div class="delivery_status">
+                <div>
+                  <img src="../img/delivery_01.png" alt="" />
+                </div>
+                <div>
+                  <img src="../img/delivery_02.png" alt="" />
+                </div>
+                <div>
+                  <img src="../img/delivery_03.png" alt="" />
+                </div>
+              </div>
+
+              <h4 class="order__data">주문상품 정보</h4>
+              <!-- 주문상품 정보 -->
+              <div class="order__product_title">
+                <div class="order_title">상품정보</div>
+                <div class="order_money">배송비</div>
+                <div class="order_rogress_status">진행상태</div>
+              </div>
+
+              <!-- 상품이미지 / 상품 정보 -->
+              <div class="order__product_data">
+                <div class="order_title_data">
+                  <div class="product_img_box">
+                    <a href=""
+                      ><img
+                        src="../img/pocket_number01.png"
+                        class="product_img"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="product_list_box">
+                    <ul class="product_list">
+                      <li><a href="" class="product_img_a">상품 제목</a></li>
+                      <li><a href="" class="product_img_a">상품 종류</a></li>
+                      <li><a href="" class="product_img_a">가격</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="order_product_money">
+                  <h5>무료배송</h5>
+                </div>
+
+                <div class="order_product_state">
+                  <h3>배송완료</h3>
+                  <!-- 배송 정보 -->
+                  <div class="delivery_information">
+                    <a href="">cj 대한통운</a>
+                    <strong
+                      ><a href="" class="delivery_number"
+                        >운송장 번호</a
+                      ></strong
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- 구매자 정보 -->
+              <section class="my__information">
+                <h4 class="order__data">주문상품 정보</h4>
+                <div>
+                  <section class="my_information_box">
+                    <div class="my_order_name">주문자</div>
+                    <div class="my_name">이름</div>
+                    <div class="my_mail">이메일 주소</div>
+                    <div class="my_mail_address">이메일</div>
+                  </section>
+                  <section class="my_information_box">
+                    <div class="my_order_name">전화번호</div>
+                    <div class="my_name">010-xxxx-xxx</div>
+                    <div class="my_mail">휴대폰번호</div>
+                    <div class="my_mail_address">010-9917-6844</div>
+                  </section>
+                </div>
+              </section>
+
+              <!-- 결제정보 -->
+              <section class="my__payment">
+                <h4 class="order__data">결제 정보</h4>
+                <div>
+                  <section class="my_payment_box">
+                    <div class="order_amount_box">
+                      <div class="amount_box_top">
+                        <div class="moeny_title">주문금액</div>
+                        <div class="moeny">
+                          <p>10,000</p>
+                          원
+                        </div>
+                      </div>
+                      <div class="amount_box_center">
+                        <div class="moeny_amount">상품금액</div>
+                        <div class="moeny_two">
+                          <div class="amount">10,000</div>
+                          <div class="won">원</div>
+                        </div>
+                      </div>
+                      <div class="amount_box_center">
+                        <div class="moeny_amount">배송비</div>
+                        <div class="moeny_two">
+                          <div class="amount">0</div>
+                          <div class="won">원</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="order_amount_box">
+                      <div class="amount_box_top">
+                        <div class="moeny_title">할인금액</div>
+                        <div class="moeny">
+                          <p>10,000</p>
+                          원
+                        </div>
+                      </div>
+                      <div class="amount_box_center">
+                        <div class="moeny_amount">적립금할인</div>
+                        <div class="moeny_two">
+                          <div class="amount">10,000</div>
+                          <div class="won">원</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="order_amount_total">
+                      <div class="amount_box_top">
+                        <div class="moeny_title">주문금액</div>
+                        <div class="moeny">
+                          <p>10,000</p>
+                          원
+                        </div>
+                      </div>
+                      <div class="amount_box_center">
+                        <div class="moeny_amount">상품금액</div>
+                        <div class="moeny_two">
+                          <div class="amount">10,000</div>
+                          <div class="won">원</div>
+                        </div>
+                      </div>
+                      <div class="amount_box_center">
+                        <div class="moeny_amount">배송비</div>
+                        <div class="moeny_two">
+                          <div class="amount">0</div>
+                          <div class="won">원</div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </section>
+
+              <!-- 배송지 정보 -->
+              <section class="my__delivery_address">
+                <h4 class="order__data">배송지 정보</h4>
+
+                <div>
+                  <div class="address_box">
+                    <div class="address_section_list">
+                      <div class="address_name">받는사람</div>
+                    </div>
+                    <div>
+                      <div class="address_name_data">신동억</div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="address_box">
+                      <div class="address_section_list">
+                        <div class="address_name">전화번호</div>
+                      </div>
+                      <div>
+                        <div class="address_name_data">-</div>
+                      </div>
+
+                      <div class="address_section_list_box">
+                        <div class="address_name">휴대폰번호</div>
+                      </div>
+                      <div>
+                        <div class="address_name_data">010-9917-6844</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="address_box">
+                    <div class="address_section_list">
+                      <div class="address_name">주소</div>
+                    </div>
+                    <div>
+                      <div class="address_name_data">
+                        서울특별시 노원구 상계로1길 34 5층
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="address_box">
+                    <div class="address_section_list">
+                      <div class="address_name">배송요청사항</div>
+                    </div>
+                    <div>
+                      <div class="address_name_data">힘들어요ㅠ.ㅠ</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="exchange_btn">
+                  <button class="btn">교환접수</button>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>
