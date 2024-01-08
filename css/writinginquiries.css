@@ -190,7 +190,7 @@
   display: flex;
   /* border: 2px solid #040404; */
   border-bottom: 2px solid #d4d4d4;
-
+  height: 70px;
   margin-top: 10px;
 }
 
@@ -211,7 +211,7 @@
 }
 .input_title {
   width: 600px;
-  height: 20px;
+  height: 40px;
   padding-left: 5px;
 }
 
@@ -232,13 +232,13 @@
   align-items: center;
 
   width: 900px;
-  height: 500px;
+  height: 250px;
 
   border-left: 2px solid #d4d4d4;
 }
 .input_content {
   width: 600px;
-  height: 400px;
+  height: 200px;
   padding-left: 5px;
   resize: none;
 }
@@ -247,4 +247,36 @@
   cursor: pointer;
   text-decoration: none;
   color: #040404;
+}
+
+/* 이미지박스 */
+.img_box {
+  display: flex;
+}
+.input_img_box {
+  display: flex;
+  border-bottom: 2px solid #d4d4d4;
+}
+
+.input_img_box_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.input_img_box_img {
+  width: 900px;
+  height: 250px;
+
+  border-left: 2px solid #d4d4d4;
+}
+.img_size {
+  width: 70px;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 150px;
+}
+.content_list {
+  padding-left: 155px;
+  color: #d4d4d4;
 }
