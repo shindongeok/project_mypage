@@ -40,6 +40,11 @@
 .li_list_a {
   text-decoration: none;
   color: rgb(70, 170, 170);
+}
+
+.li_list_a:active {
+  text-decoration: none;
+  color: rgb(70, 170, 170);
   margin-bottom: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid #040404;

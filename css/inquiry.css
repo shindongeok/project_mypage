@@ -40,6 +40,11 @@
 .li_list_a {
   text-decoration: none;
   color: rgb(70, 170, 170);
+}
+
+.li_list_a:active {
+  text-decoration: none;
+  color: rgb(70, 170, 170);
   margin-bottom: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid #040404;
@@ -181,16 +186,6 @@
 
 /* 1 : 1 문의게시판 */
 /* saved_title_box */
-.inquiry_btn {
-  display: flex;
-  padding-top: 10px;
-  flex-direction: row-reverse;
-}
-.btn {
-  background-color: white;
-  font-family: "GmarketSansMedium";
-  border: 3px solid #64c8c8;
-}
 
 /* 문의 내역  */
 .inquiry_title_box {
@@ -217,12 +212,6 @@
   width: 500px;
 }
 
-#a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #040404;
-}
-
 .inquiry_box {
   width: 1140px;
   display: flex;
@@ -245,4 +234,25 @@
   justify-content: center;
   align-items: center;
   width: 500px;
+}
+
+.inquiry_btn {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row-reverse;
+  height: 30px;
+}
+
+.btn {
+  background-color: white;
+}
+.btn:hover {
+  background-color: #64c8c8;
+  font-family: "GmarketSansMedium";
+  border: 1px solid #64c8c8;
+  cursor: pointer;
+}
+#a {
+  text-decoration: none;
+  color: #040404;
 }

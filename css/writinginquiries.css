@@ -40,6 +40,11 @@
 .li_list_a {
   text-decoration: none;
   color: rgb(70, 170, 170);
+}
+
+.li_list_a:active {
+  text-decoration: none;
+  color: rgb(70, 170, 170);
   margin-bottom: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid #040404;
@@ -174,17 +179,6 @@
 
 /* 1 : 1 문의게시판 */
 /* saved_title_box */
-.writinginquiries_btn {
-  display: flex;
-  padding-top: 10px;
-  height: 30px;
-  flex-direction: row-reverse;
-}
-.btn:hover {
-  background-color: white;
-  font-family: "GmarketSansMedium";
-  border: 1px solid #64c8c8;
-}
 
 .input__box {
   display: flex;
@@ -243,12 +237,6 @@
   resize: none;
 }
 
-#a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #040404;
-}
-
 /* 이미지박스 */
 .img_box {
   display: flex;
@@ -279,4 +267,24 @@
 .content_list {
   padding-left: 155px;
   color: #d4d4d4;
+}
+
+.writinginquiries_btn {
+  display: flex;
+  padding-top: 10px;
+  height: 30px;
+  flex-direction: row-reverse;
+}
+.btn {
+  background-color: white;
+}
+.btn:hover {
+  background-color: #64c8c8;
+  font-family: "GmarketSansMedium";
+  border: 1px solid #64c8c8;
+  cursor: pointer;
+}
+#a {
+  text-decoration: none;
+  color: #040404;
 }
