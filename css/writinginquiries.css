@@ -258,12 +258,37 @@
 
   border-left: 2px solid #d4d4d4;
 }
+/* 파일첨부 */
 .img_size {
   width: 70px;
   height: 70px;
   padding-top: 20px;
   padding-left: 150px;
 }
+.file {
+  padding-top: 20px;
+  padding-left: 155px;
+}
+.member_img_box {
+  position: relative;
+}
+/* .figcaption {
+  position: absolute;
+  left: 50px;
+  right: px;
+
+  bottom: 10px;
+}
+.img_box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.btn_box {
+  width: 15px;
+  height: 15px;
+} */
+/* ----------------- */
 .content_list {
   padding-left: 155px;
   color: #d4d4d4;
