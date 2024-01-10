@@ -19,8 +19,13 @@
 * {
   font-family: "GmarketSansMedium";
 }
+/* a태그 밑줄 x , 텍스트 색깔 검정 */
+.a__order_details {
+  text-decoration-line: none;
+  color: #040404;
+}
 
-/* main_left */
+/* 마이페이지 메뉴리스트 */
 .main__menu {
   margin-top: 50px;
   width: 15%;
@@ -54,8 +59,6 @@
   margin-bottom: 20px;
 }
 
-/* main_right */
-
 .main__section {
   margin-top: 100px;
   width: 95%;
@@ -66,8 +69,7 @@
   flex-direction: column;
 }
 
-/* main_right_top */
-
+/* 마이페이지 메뉴리스트 */
 .main__top {
   width: 1050px;
   margin-left: 45px;
@@ -150,8 +152,7 @@
   color: rgb(4, 4, 4);
 }
 
-/*order__data  */
-
+/* 주문조회 */
 .order__data {
   padding-bottom: 10px;
   border-bottom: 5px solid #64c8c8;
@@ -161,18 +162,14 @@
   font-family: "GmarketSansMedium";
 }
 
-/* main__order */
-
 .main__order {
   font-family: "GmarketSansMedium";
-
   text-align: center;
   padding: 70px;
   color: rgb(39, 57, 125, 0.4);
 }
 
-/* main__order_list  */
-
+/* 주문내역 리스트 */
 .main__order_list {
   list-style-type: none;
   padding: 0;
@@ -203,12 +200,6 @@
 }
 .order_details {
   display: flex;
-}
-
-/* a태그 밑줄 x , 텍스트 색깔 검정 */
-.a__order_details {
-  text-decoration-line: none;
-  color: #040404;
 }
 
 .title_order_img {

@@ -1,3 +1,4 @@
+/* 교환/반품 상품 정보 */
 .main__mypage {
   width: 1300px;
 
@@ -20,20 +21,19 @@
   font-family: "GmarketSansMedium";
 }
 
-/* main_left */
 .main__menu {
   margin-top: 50px;
   width: 15%;
   /* border: 1px solid black; */
 }
 
+/* 마이페이지 리스트 */
 .mypage_list {
   list-style-type: none;
   padding-left: 40px;
   padding-right: 20px;
   font-size: 20px;
 
-  font-family: "GmarketSansMedium";
   font-weight: 300;
 }
 
@@ -53,8 +53,7 @@
 .li_list {
   margin-bottom: 20px;
 }
-
-/* main_right */
+/* 마이페이지 리스트 */
 
 .main__section {
   width: 1140px;
@@ -67,8 +66,7 @@
   flex-direction: column;
 }
 
-/* main_right_top */
-
+/* 회원 정보 박스 */
 .main__top {
   width: 1050px;
   margin-left: 45px;
@@ -150,19 +148,9 @@
   text-decoration-line: none;
   color: rgb(4, 4, 4);
 }
+/* 회원 정보 박스 */
 
-/* main__title */
-
-.main__title {
-  margin-top: 10px;
-
-  /* border: 1px solid sandybrown; */
-  font-family: "GmarketSansMedium";
-  font-weight: 700;
-  font-size: 25px;
-}
-
-/* order__data */
+/* 교환/반품 상품 정보 */
 .order__data {
   padding-bottom: 10px;
   border-bottom: 5px solid #64c8c8;

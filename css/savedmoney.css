@@ -20,7 +20,7 @@
   font-family: "GmarketSansMedium";
 }
 
-/* main_left */
+/* 마이페이지 메뉴 리스트 */
 .main__menu {
   margin-top: 50px;
   width: 15%;
@@ -54,27 +54,21 @@
   margin-bottom: 20px;
 }
 
-/* main_right */
-
 .main__section {
   width: 1140px;
   margin-top: 100px;
   width: 95%;
-  /* border: 1px solid blue; */
-
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-/* main_right_top */
-
+/* 회원정보 박스 */
 .main__top {
   width: 1050px;
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 100px;
-  /* border: 1px solid red; */
 }
 
 .member_box {
@@ -151,17 +145,7 @@
   color: rgb(4, 4, 4);
 }
 
-/* main__title */
-
-.main__title {
-  margin-top: 10px;
-
-  /* border: 1px solid sandybrown; */
-  font-family: "GmarketSansMedium";
-  font-weight: 700;
-  font-size: 25px;
-}
-
+/* 적림금 내역! */
 .order__details {
   width: 1140px;
 }
@@ -174,7 +158,6 @@
   font-weight: 700;
   font-family: "GmarketSansMedium";
 }
-/* main__order */
 
 .main__order {
   font-family: "GmarketSansMedium";
@@ -184,8 +167,6 @@
   color: rgb(39, 57, 125, 0.4);
 }
 
-/* 적립금 내역! */
-/* saved_title_box */
 .saved_title_box {
   display: flex;
   justify-content: center;

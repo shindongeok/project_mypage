@@ -1,8 +1,6 @@
 .main__mypage {
   width: 1300px;
-
   margin: 0 auto;
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +18,7 @@
   font-family: "GmarketSansMedium";
 }
 
-/* main_left */
+/* 마이페이지 메뉴 리스트 */
 .main__menu {
   margin-top: 50px;
   width: 15%;
@@ -54,22 +52,17 @@
   margin-bottom: 20px;
 }
 
-/* main_right */
-
 .main__section {
   width: 1140px;
   margin-top: 100px;
   width: 95%;
   margin-bottom: 100px;
-  /* border: 1px solid blue; */
-
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-/* main_right_top */
-
+/* 회원 정보 박스 */
 .main__top {
   width: 1050px;
   margin-left: 45px;
@@ -152,21 +145,11 @@
   color: rgb(4, 4, 4);
 }
 
-/* main__title */
-
-.main__title {
-  margin-top: 10px;
-
-  /* border: 1px solid sandybrown; */
-  font-family: "GmarketSansMedium";
-  font-weight: 700;
-  font-size: 25px;
-}
-
+/* 1 : 1 문의게시판 */
 .order__details {
   width: 1140px;
 }
-/* order__data */
+
 .order__data {
   padding-bottom: 10px;
   border-bottom: 5px solid #64c8c8;
@@ -175,14 +158,9 @@
   font-weight: 700;
   font-family: "GmarketSansMedium";
 }
-/* main__order */
-
-/* 1 : 1 문의게시판 */
-/* saved_title_box */
 
 .input__box {
   display: flex;
-  /* border: 2px solid #040404; */
   border-bottom: 2px solid #d4d4d4;
   height: 70px;
   margin-top: 10px;
@@ -201,7 +179,6 @@
   align-items: center;
   width: 900px;
   height: 50px;
-  /* border-left: 2px solid #040404; */
 }
 .input_title {
   width: 600px;

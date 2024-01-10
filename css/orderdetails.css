@@ -17,7 +17,7 @@
   font-style: normal;
 }
 
-/* main_left */
+/* 마이페이지 메뉴리스트 */
 .main__menu {
   margin-top: 50px;
   width: 15%;
@@ -51,20 +51,15 @@
   margin-bottom: 20px;
 }
 
-/* main_right */
-
 .main__section {
   margin-top: 100px;
   width: 95%;
-  /* border: 1px solid blue; */
-
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-/* main_right_top */
-
+/* 회원정보 박스 */
 .main__top {
   width: 1050px;
   margin-left: 45px;
@@ -148,7 +143,6 @@
 }
 
 /* 주문상세 내역 */
-/* main__title */
 
 .order_date {
   display: flex;
