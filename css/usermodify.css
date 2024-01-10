@@ -30,7 +30,7 @@
   top: 50%;
 
   margin-top: 50px;
-  /* width: 400px; */
+  /* width: 350px; */
 
   padding: 30px;
 
@@ -110,7 +110,8 @@
 
 .member_id {
   border-color: #e0e0e0;
-  border: none;
+  /* border: none; */
+  border: 1px solid #bdbdbd;
   background-color: #f3f3f3;
   color: #bdbdbd;
   width: 320px;
@@ -123,11 +124,50 @@
 }
 
 .member_input {
+  border: none;
+  border: 1px solid #bdbdbd;
+  width: 320px;
+  padding: 12px 16px;
+}
+.member_input_01 {
+  border: none;
+
+  border-bottom: 1px solid #bdbdbd;
+  border-left: 1px solid #bdbdbd;
+  border-right: 1px solid #bdbdbd;
   width: 320px;
   padding: 12px 16px;
 }
 .text_title {
-  margin-bottom: 10px;
-  margin-left: 22px;
+  display: flex;
+  height: 45px;
+  margin-left: 23px;
   text-align: left;
+}
+
+.point_point {
+  width: 30px;
+  height: 35px;
+  color: #1a6dff;
+}
+
+.i_img_box {
+  margin: 10px 0;
+}
+
+.input_date {
+  width: 350px;
+  height: 40px;
+}
+
+.btn_modify {
+  width: 350px;
+  height: 50px;
+  background-color: #46aaaa;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_modify::before {
+  cursor: pointer;
 }
