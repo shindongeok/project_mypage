@@ -22,7 +22,9 @@
           <li class="li_list">
             <button class="btn_open_modal">회원수정</button>
           </li>
-          <li class="li_list"><a href="" class="li_list_a">회원탈퇴</a></li>
+          <li class="li_list">
+            <button class="btn_open_elimination">회원탈퇴</button>
+          </li>
         </ul>
       </section>
 
@@ -287,7 +289,7 @@
         </ul>
       </section>
 
-      <!-- 모달창 ====================================================================-->
+      <!-- 회원 수정 페이지 ====================================================================-->
       <div class="modal">
         <div class="modal_body">
           <div class="close_box">
@@ -386,8 +388,35 @@
           </form>
         </div>
       </div>
+
+      <!-- 회원탈퇴 페이지 -->
+      <div class="modal__elimination">
+        <div class="modal__body_elimination">
+          <div class="elimination_close_box">
+            <button class="elimination__close_01" id="close_btn_02">
+              <img src="../img/close_button.png" class="close_img_02" alt="" />
+            </button>
+          </div>
+          <!-- 탈퇴하기 -->
+          <form action="">
+            <h2>회원 탈퇴</h2>
+            <ul class="elimination_ul">
+              <li>😊 가입된 회원정보가 모두 삭제됩니다.</li>
+              <li>😊 작성하신 게시물은 삭제되지 않습니다.</li>
+              <li>
+                😊 탈퇴 후 같은 계정으로 재가입 시 기존에 가지고 있던 적립금은
+                복원되지 않으며, 사용 및 다운로드했던 쿠폰도 사용 불가능합니다.
+              </li>
+              <li>😊 회원 탈퇴를 진행하시겠습니까?</li>
+              <br />
+            </ul>
+            <button class="elimination__Close">취소</button>
+            <button class="elimination__elimination">탈퇴하기</button>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <script src="../script/usermodify.js"></script>
+    <script src="../script/elimination.js"></script>
   </body>
 </html>
