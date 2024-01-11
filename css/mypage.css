@@ -1,180 +1,149 @@
-.main__mypage {
-  width: 1300px;
-
-  margin: 0 auto;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-between;
-}
-
-/* 폰트 설정 */
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-/* 전체 폰트 설정*/
-* {
-  font-family: "GmarketSansMedium";
-}
-/* a태그 밑줄 x , 텍스트 색깔 검정 */
-.a__order_details {
-  text-decoration-line: none;
-  color: #040404;
-}
-
 /* 마이페이지 메뉴리스트 */
-.main__menu {
+.mypage__menu_box {
   margin-top: 50px;
   width: 15%;
-  /* border: 1px solid black; */
 }
 
-.mypage_list {
+.menu__list {
   list-style-type: none;
   padding-left: 40px;
   padding-right: 20px;
   font-size: 20px;
-
-  font-family: "GmarketSansMedium";
   font-weight: 300;
 }
 
-.li_list_a {
+.menu__li {
+  margin-bottom: 20px;
+}
+
+.menu__a {
   text-decoration: none;
   color: rgb(70, 170, 170);
 }
 
-.li_list_a:active {
+.menu__a:active {
   text-decoration: none;
   color: rgb(70, 170, 170);
   margin-bottom: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid #040404;
 }
+/* 마이페이지 메뉴리스트 */
 
-.li_list {
-  margin-bottom: 20px;
-}
-
-.main__section {
+.mypage__my_box {
   margin-top: 100px;
   width: 95%;
-  /* border: 1px solid blue; */
-
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-/* 마이페이지 메뉴리스트 */
-.main__top {
+/* 회원정보 박스 */
+.member__information_box {
   width: 1050px;
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 100px;
-  /* border: 1px solid red; */
 }
 
-.member_box {
+.member__box {
   display: flex;
   margin-top: 70px;
 }
 
-.member_box_img {
+/* 회원 이미지 박스 */
+.member__img_box {
   width: 110px;
   height: 85px;
 }
 
-.member_box_img_a {
+.member__img {
   width: 100px;
   height: 85px;
   border-radius: 50%;
 }
-
-.member_information {
+/* 회원 이미지 박스 */
+/* 회원 이름 및 누적 금액 */
+.member__name_money_box {
   display: block;
   width: 700px;
   margin-left: 30px;
-
   border-right: thick solid #64c8c8;
 }
 
-.member_information_name {
+.member__information_name {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 0;
-
-  font-family: "GmarketSansMedium";
   font-weight: 500;
   font-size: 22px;
   color: rgb(4, 4, 4);
 }
 
-.member_information_accumulated_amount {
-  font-family: "GmarketSansMedium";
+.member__information_accumulated_amount {
   font-weight: 300;
   font-size: 15px;
   color: rgb(4, 4, 4);
 }
-
-.saved_money {
+/* 회원 이름 및 누적 금액 */
+/* 적립금 표시 박스 */
+.saved__money_box {
   margin-left: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.saved_money_name {
-  font-family: "GmarketSansMedium";
+.saved__money_name {
   font-weight: 300;
   font-size: 15px;
-
   text-align: center;
   margin-bottom: 5px;
 }
-
-.saved_money_amount {
-  font-family: "GmarketSansMedium";
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.saved_money_name_a {
+.saved__a {
   text-decoration-line: none;
   color: rgb(4, 4, 4);
+}
+
+.saved__money_amount {
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .saved_money_amount_a {
   text-decoration-line: none;
   color: rgb(4, 4, 4);
 }
+/* 적립금 표시 박스 */
+/* 회원정보 박스 */
 
-/* 주문조회 */
-.order__data {
+/* 주문조회 내역 */
+.order__inquiry_title {
   padding-bottom: 10px;
   border-bottom: 5px solid #64c8c8;
   font-size: 25px;
   margin-bottom: 0px;
   font-weight: 700;
-  font-family: "GmarketSansMedium";
 }
 
-.main__order {
-  font-family: "GmarketSansMedium";
+.order__breakdown {
   text-align: center;
   padding: 70px;
   color: rgb(39, 57, 125, 0.4);
 }
 
 /* 주문내역 리스트 */
-.main__order_list {
+.order__breakdown_box {
   list-style-type: none;
   padding: 0;
   text-align: center;
   padding-top: 50px;
+}
+
+.order__inquiry_list_title {
+  display: flex;
+  padding-top: 5px;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .list__title {
@@ -183,12 +152,6 @@
   display: flex;
 
   border-bottom: 1px solid #040404;
-}
-
-.list__title_list {
-  display: flex;
-  padding-top: 5px;
-  border-bottom: 1px solid #d4d4d4;
 }
 
 .title_date {
@@ -228,4 +191,11 @@
   width: 280px;
 }
 
-/* ======================모달창========= */
+.a__order_details {
+  text-decoration: none;
+  color: #040404;
+}
+
+/* 회원 수정 모달창 =============================== */
+
+/* 회원 탈퇴 모달창 =============================== */

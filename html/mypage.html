@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/mypage.css" />
+    <link rel="stylesheet" href="../css/default.css" />
   </head>
   <body>
     <div>
@@ -15,71 +16,73 @@
       <main>
         <div class="main__mypage">
           <!-- 마이페이지 메뉴리스트 -->
-          <section class="main__menu">
-            <ul class="mypage_list">
-              <li class="li_list">
-                <a href="" class="li_list_a">주문 조회</a>
+          <section class="mypage__menu_box">
+            <ul class="menu__list">
+              <li class="menu__li">
+                <a href="" class="menu__a">주문 조회</a>
               </li>
-              <li class="li_list">
-                <a href="" class="li_list_a">교환/반품</a>
+              <li class="menu__li">
+                <a href="" class="menu__a">교환/반품</a>
               </li>
-              <li class="li_list"><a href="" class="li_list_a">적립금</a></li>
-              <li class="li_list"><a href="" class="li_list_a">1:1문의</a></li>
-              <li class="li_list">
-                <a href="" class="li_list_a">정보 수정</a>
+              <li class="menu__li"><a href="" class="menu__a">적립금</a></li>
+              <li class="menu__li"><a href="" class="menu__a">1:1문의</a></li>
+              <li class="menu__li">
+                <a href="" class="menu__a">정보 수정</a>
               </li>
-              <li class="li_list"><a href="" class="li_list_a">회원탈퇴</a></li>
+              <li class="menu__li"><a href="" class="menu__a">회원탈퇴</a></li>
             </ul>
           </section>
           <!-- 마이페이지 메뉴리스트 -->
 
 
-          <section class="main__section">
+          <section class="mypage__my_box">
             <!-- 회원정보 박스 -->
-            <div class="main__top">
-              <article class="member_box">
-                <div class="member_box_img">
+            <div class="member__information_box">
+              <article class="member__box">
+                <!-- 회원 이미지 박스 -->
+                <div class="member__img_box">
                   <a href=""
                     ><img
                       src="../img/user_img.png"
-                      class="member_box_img_a"
+                      class="member__img"
                       alt=""
                   /></a>
                 </div>
+                <!-- 회원 이미지 박스 -->
 
                 <!-- 회원이름 및 누적 금액 -->
-                <div class="member_information">
-                  <div class="member_information_name">
+                <div class="member__name_money_box">
+                  <div class="member__information_name">
                     신동억 님 안녕하세요
                   </div>
-                  <div class="member_information_accumulated_amount">
+                  <div class="member__information_accumulated_amount">
                     누적 구매금액 : 0 원
                   </div>
                 </div>
+                <!-- 회원이름 및 누적 금액 -->
 
-                <!-- 적립금표시 -->
-                <div class="saved_money">
-                  <div class="saved_money_name">
-                    <a href="" class="saved_money_name_a">적립금</a>
+                <!-- 적립금표시 박스 -->
+                <div class="saved__money_box">
+                  <div class="saved__money_name">
+                    <a href="" class="saved__a">적립금</a>
                   </div>
-                  <div class="saved_money_amount">
+                  <div class="saved__money_amount">
                     <a href="" class="saved_money_amount_a">5,000</a>
                   </div>
                 </div>
+                <!-- 적립금표시 박스 -->
               </article>
             </div>
             <!-- 회원정보 박스 -->
             
-            <!-- 주문조회 -->
-            <div class="order__details">
-              <h4 class="order__data">주문조회 내역</h4>
-            </div>
-
-            <div class="main__order">주문 내역이 없습니다.</div>
+            <!-- 주문조회 내역 -->
+            <h4 class="order__inquiry_title">주문조회 내역</h4>
+            <div class="order__breakdown">주문 내역이 없습니다.</div>
 
             <!-- 주문내역 리스트 -->
-            <ul class="main__order_list">
-              <li class="list_box">
+            <ul class="order__breakdown_box">
+
+              <li class="order__inquiry_list_title">
                 <div class="list__title">
                   <div class="title_date">주문일</div>
                   <div class="title_order_details">주문내역</div>
@@ -91,7 +94,7 @@
 
               <!-- 주문 내역 -->
               <li>
-                <div class="list__title_list">
+                <div class="order__inquiry_list_title">
                   <div class="title_date">
                     <span class="title_order_content">2024.00.00</span>
                   </div>
@@ -99,7 +102,7 @@
                     <div class="order_details">
                       <div>
                         <!-- 주문조회 내역 이미지 -->
-                        <a href="../html/orderdetails.html" class="a__order_details"
+                        <a href="" class="a__order_details"
                           ><img
                             class="title_order_img"
                             src="../img/pocket_number01.png"
@@ -130,7 +133,7 @@
 
               <!-- 주문 내역 -->
               <li>
-                <div class="list__title_list">
+                <div class="order__inquiry_list_title">
                   <div class="title_date">
                     <span class="title_order_content">2024.00.00</span>
                   </div>
@@ -169,7 +172,7 @@
               
               <!-- 주문 내역 -->
               <li>
-                <div class="list__title_list">
+                <div class="order__inquiry_list_title">
                   <div class="title_date">
                     <span class="title_order_content">2024.00.00</span>
                   </div>
@@ -208,7 +211,7 @@
               
               <!-- 주문 내역 -->
               <li>
-                <div class="list__title_list">
+                <div class="order__inquiry_list_title">
                   <div class="title_date">
                     <span class="title_order_content">2024.00.00</span>
                   </div>
@@ -247,7 +250,7 @@
               
               <!-- 주문 내역 -->
               <li>
-                <div class="list__title_list">
+                <div class="order__inquiry_list_title">
                   <div class="title_date">
                     <span class="title_order_content">2024.00.00</span>
                   </div>
@@ -285,10 +288,19 @@
               </li>
             </ul>
           </section>
+
+          <!-- 회원 수정 모달창=================================================================== -->
+          
+
+
+          <!-- 회원 탈퇴 모달창=================================================================== -->
+          
         </div>
       </main>
 
-      <!-- 모달창 -->
+      
+
+
 
       <footer></footer>
 
