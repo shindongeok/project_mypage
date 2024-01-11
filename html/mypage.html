@@ -27,9 +27,9 @@
               <li class="menu__li"><a href="" class="menu__a">적립금</a></li>
               <li class="menu__li"><a href="" class="menu__a">1:1문의</a></li>
               <li class="menu__li">
-                <a href="" class="menu__a">정보 수정</a>
+                <button class="btn_open_modal">회원수정</button>
               </li>
-              <li class="menu__li"><a href="" class="menu__a">회원탈퇴</a></li>
+              <li class="menu__li"><button class="btn_open_elimination">회원탈퇴</button></li>
             </ul>
           </section>
           <!-- 마이페이지 메뉴리스트 -->
@@ -289,11 +289,135 @@
             </ul>
           </section>
 
-          <!-- 회원 수정 모달창=================================================================== -->
+      <!-- 회원 수정 모달창=================================================================== -->    
+      <div class="modal">
+        <div class="modal_body">
+          <div class="close_box">
+            <button class="close" id="close_btn">
+              <img src="../img/close_button.png" class="close_img" alt="" />
+            </button>
+          </div>
+          <!-- 회원수정 -->
+          <form action="">
+            <section class="member_modify_box">
+              <h2>정보 수정</h2>
+              <figure class="member_img_box">
+                <img src="../img/user_img.png" class="img_box" alt="" />
+                <figcaption class="figcaption">
+                  <button class="camera_btn">
+                    <img src="../img/camera.png" class="btn_box" alt="" />
+                  </button>
+                </figcaption>
+              </figure>
+            </section>
+            <!-- 비밀번호 -->
+            <div class="input_box">
+              <input type="text" class="member_id" disabled />
+              <input
+                type="text"
+                class="member_input_01"
+                placeholder="•••••••"
+              />
+              <input
+                type="text"
+                class="member_input_01"
+                placeholder="비밀번호 변경 하는 경우입력하세요"
+              />
+              <input
+                type="text"
+                class="member_input_01"
+                placeholder="비밀번호 확인"
+              />
+            </div>
+
+            <!-- 이메일 -->
+            <div class="input_box">
+              <div class="text_title">
+                <p class="text_title_content">이메일</p>
+                <div class="i_img_box">
+                  <img src="../img/point.png" class="point_point" alt="" />
+                </div>
+              </div>
+              <input type="text" class="member_input" />
+            </div>
+
+            <div class="input_box">
+              <div class="text_title">
+                <p class="text_title_content">이름</p>
+                <div class="i_img_box">
+                  <img src="../img/point.png" class="point_point" alt="" />
+                </div>
+              </div>
+              <input type="text" class="member_input" />
+            </div>
+
+            <div class="input_box">
+              <div class="text_title">
+                <p class="text_title_content">연락처</p>
+                <div class="i_img_box">
+                  <img src="../img/point.png" class="point_point" alt="" />
+                </div>
+              </div>
+              <input type="text" class="member_input" />
+            </div>
+
+            <div class="input_box">
+              <div class="text_title">
+                <p class="text_title_content">주소</p>
+                <div class="i_img_box">
+                  <img src="../img/point.png" class="point_point" alt="" />
+                </div>
+              </div>
+              <input type="text" class="member_input" />
+              <input type="text" class="member_input_01" />
+            </div>
+
+            <div class="input_box">
+              <div class="text_title">
+                <p class="text_title_content">생년월일</p>
+                <div class="i_img_box">
+                  <img src="../img/point.png" class="point_point" alt="" />
+                </div>
+              </div>
+              <div>
+                <input type="date" class="input_date" />
+              </div>
+            </div>
+
+            <button class="btn_modify">확인</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- 회원 탈퇴 모달창=================================================================== -->
+      <div class="modal__elimination">
+        <div class="modal__body_elimination">
+          <div class="elimination_close_box">
+            <button class="elimination__close_01" id="close_btn_02">
+              <img src="../img/close_button.png" class="close_img_02" alt="" />
+            </button>
+          </div>
+          <!-- 탈퇴하기 -->
+          <form action="">
+            <h2>회원 탈퇴</h2>
+            <ul class="elimination_ul">
+              <li>😊 가입된 회원정보가 모두 삭제됩니다.</li>
+              <li>😊 작성하신 게시물은 삭제되지 않습니다.</li>
+              <li>
+                😊 탈퇴 후 같은 계정으로 재가입 시 기존에 가지고 있던 적립금은
+                복원되지 않으며, 사용 및 다운로드했던 쿠폰도 사용 불가능합니다.
+              </li>
+              <li>😊 회원 탈퇴를 진행하시겠습니까?</li>
+              <br />
+            </ul>
+            <button class="elimination__Close">취소</button>
+            <button class="elimination__elimination">탈퇴하기</button>
+          </form>
+        </div>
+      </div>
+
+
           
-
-
-          <!-- 회원 탈퇴 모달창=================================================================== -->
           
         </div>
       </main>
@@ -304,7 +428,7 @@
 
       <footer></footer>
 
-     
+     <script src="../script/elimination.js"></script>
      
   </body>
 </html>
