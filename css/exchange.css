@@ -1,151 +1,122 @@
 /* 교환/반품 내역 */
-.main__mypage {
-  width: 1300px;
 
-  margin: 0 auto;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-between;
-}
-* {
-  font-family: "GmarketSansMedium";
-}
-/* 폰트 설정 */
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* 마이페이지 메뉴 리스트 */
-.main__menu {
+.mypage__menu_box {
   margin-top: 50px;
   width: 15%;
-  /* border: 1px solid black; */
 }
 
-.mypage_list {
+.menu__list {
   list-style-type: none;
   padding-left: 40px;
   padding-right: 20px;
   font-size: 20px;
-
-  font-family: "GmarketSansMedium";
   font-weight: 300;
 }
 
-.li_list_a {
+.menu__li {
+  margin-bottom: 20px;
+}
+
+.menu__a {
   text-decoration: none;
   color: rgb(70, 170, 170);
 }
 
-.li_list_a:active {
+.menu__a:active {
   text-decoration: none;
   color: rgb(70, 170, 170);
   margin-bottom: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid #040404;
 }
+/* 마이페이지 메뉴리스트 */
 
-.li_list {
-  margin-bottom: 20px;
-}
-
-/* 회원 정보 박스 */
-.main__section {
-  width: 1140px;
+.mypage__my_box {
   margin-top: 100px;
   width: 95%;
-  /* border: 1px solid blue; */
-
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.main__top {
+/* 회원정보 박스 */
+.member__information_box {
   width: 1050px;
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 100px;
-  /* border: 1px solid red; */
 }
 
-.member_box {
+.member__box {
   display: flex;
   margin-top: 70px;
 }
 
-.member_box_img {
+/* 회원 이미지 박스 */
+.member__img_box {
   width: 110px;
   height: 85px;
 }
 
-.member_box_img_a {
+.member__img {
   width: 100px;
   height: 85px;
   border-radius: 50%;
 }
-
-.member_information {
+/* 회원 이미지 박스 */
+/* 회원 이름 및 누적 금액 */
+.member__name_money_box {
   display: block;
   width: 700px;
   margin-left: 30px;
-
   border-right: thick solid #64c8c8;
 }
 
-.member_information_name {
+.member__information_name {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 0;
-
-  font-family: "GmarketSansMedium";
   font-weight: 500;
   font-size: 22px;
   color: rgb(4, 4, 4);
 }
 
-.member_information_accumulated_amount {
-  font-family: "GmarketSansMedium";
+.member__information_accumulated_amount {
   font-weight: 300;
   font-size: 15px;
   color: rgb(4, 4, 4);
 }
-
-.saved_money {
+/* 회원 이름 및 누적 금액 */
+/* 적립금 표시 박스 */
+.saved__money_box {
   margin-left: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.saved_money_name {
-  font-family: "GmarketSansMedium";
+.saved__money_name {
   font-weight: 300;
   font-size: 15px;
-
   text-align: center;
   margin-bottom: 5px;
 }
-
-.saved_money_amount {
-  font-family: "GmarketSansMedium";
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.saved_money_name_a {
+.saved__a {
   text-decoration-line: none;
   color: rgb(4, 4, 4);
+}
+
+.saved__money_amount {
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .saved_money_amount_a {
   text-decoration-line: none;
   color: rgb(4, 4, 4);
 }
+/* 적립금 표시 박스 */
+/* 회원정보 박스 */
 
 /* 교환/반품 내역 */
 .order__data {
@@ -223,4 +194,266 @@
   justify-content: center;
   align-items: center;
   width: 340px;
+}
+
+/* 회원수정 모달창======================== */
+
+.modal {
+  position: absolute;
+  display: none;
+
+  justify-content: center;
+  top: 0;
+  left: 0;
+
+  margin: 0;
+
+  width: 100%;
+  height: 2000px;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_body {
+  margin: 0 auto;
+  position: absolute;
+
+  top: 600px;
+
+  /* margin-top: 50px; */
+  /* width: 350px; */
+
+  padding: 30px;
+
+  text-align: center;
+
+  background-color: rgba(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+  transform: translateY(-50%);
+}
+/* 닫기 버튼 */
+
+.close_box {
+  float: right;
+}
+.close {
+  background-color: white;
+  border-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.close:focus {
+  background-color: white;
+  border-color: white;
+  border: none;
+  outline: none;
+}
+.close_img {
+  width: 20px;
+  height: 20px;
+  filter: invert(50%);
+}
+
+.member_modify_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.img_box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.camera_btn {
+  border-radius: 50px;
+  border: 1px solid #d4d4d4;
+  background-color: white;
+}
+.btn_box {
+  width: 15px;
+  height: 15px;
+}
+
+.member_img_box {
+  position: relative;
+}
+.figcaption {
+  position: absolute;
+  left: 50px;
+  right: px;
+
+  bottom: 10px;
+}
+
+.input_box {
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+.member_id {
+  border-color: #e0e0e0;
+  /* border: none; */
+  border: 1px solid #bdbdbd;
+  background-color: #f3f3f3;
+  color: #bdbdbd;
+  width: 320px;
+  padding: 12px 16px;
+}
+.member_id:focus {
+  outline: none;
+  background-color: #f3f3f3;
+  box-shadow: none;
+}
+
+.member_input {
+  border: none;
+  border: 1px solid #bdbdbd;
+  width: 320px;
+  padding: 12px 16px;
+}
+.member_input_01 {
+  border: none;
+
+  border-bottom: 1px solid #bdbdbd;
+  border-left: 1px solid #bdbdbd;
+  border-right: 1px solid #bdbdbd;
+  width: 320px;
+  padding: 12px 16px;
+}
+.text_title {
+  display: flex;
+  height: 45px;
+  margin-left: 23px;
+  text-align: left;
+}
+
+.point_point {
+  width: 30px;
+  height: 35px;
+  color: #1a6dff;
+}
+
+.i_img_box {
+  margin: 10px 0;
+}
+
+.input_date {
+  width: 350px;
+  height: 40px;
+}
+
+.btn_modify {
+  width: 350px;
+  height: 50px;
+  background-color: #96dcdc;
+  border: none;
+}
+
+.btn_modify::before {
+  cursor: pointer;
+}
+.btn_open_modal {
+  font-family: "GmarketSansMedium";
+  font-weight: 500;
+  font-size: 20px;
+  border: 0;
+  background-color: white;
+  color: #46aaaa;
+  margin: 0;
+  padding: 0;
+}
+
+/* 회원탈퇴 페이지 여는 버튼*/
+.btn_open_elimination {
+  font-size: 20px;
+  border: 0;
+  background-color: white;
+  color: #46aaaa;
+  font-family: "GmarketSansMedium";
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+/* 회원탈퇴 ============================== */
+.modal__elimination {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__body_elimination {
+  width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  margin-top: 50px;
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  transform: translateY(-50%);
+  border: 10px solid #46aaaa;
+}
+
+.elimination_close_box {
+  display: flex;
+  justify-content: end;
+}
+.elimination__Close_01::before {
+  cursor: pointer;
+}
+.elimination__close_01 {
+  background-color: white;
+  border-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.elimination__close_01:focus {
+  background-color: white;
+  border-color: white;
+  border: none;
+  outline: none;
+}
+.close_img_02 {
+  width: 20px;
+  height: 20px;
+  filter: invert(50%);
+}
+
+/* 회원 수정*/
+
+.elimination__Close {
+  width: 100px;
+  height: 50px;
+  background-color: #96dcdc;
+  border: 1px solid #46aaaa;
+}
+
+.elimination_ul {
+  width: 500px;
+  margin: 0;
+  list-style: none;
+}
+
+.elimination__elimination {
+  width: 100px;
+  height: 50px;
+  background-color: #96dcdc;
+  border: 1px solid #46aaaa;
 }
