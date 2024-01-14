@@ -129,9 +129,9 @@
                 </button>
               </div>
               <!-- 회원수정 -->
-              <form action="">
+              <form action="" class="form_modify">
                 <section class="member_modify_box">
-                  <h2>정보 수정</h2>
+                  <h2 class="modify__h2">정보 수정</h2>
                   <figure class="member_img_box">
                     <img src="../img/user_img.png" class="img_box" alt="" />
                     <figcaption class="figcaption">
@@ -211,7 +211,9 @@
                     </div>
                   </div>
                   <div>
-                    <input type="date" class="input_date" />
+                    <select name="yy" id="year"></select>
+                    <select name="mm" id="month"></select>
+                    <select name="dd" id="day"></select>
                   </div>
                 </div>
 
@@ -221,21 +223,11 @@
           </div>
 
           <!-- 회원 탈퇴 모달창=================================================================== -->
-          <div class="modal__elimination">
-            <div class="modal__body_elimination">
-              <div class="elimination_close_box">
-                <button class="elimination__close_01" id="close_btn_02">
-                  <img
-                    src="../img/close_button.png"
-                    class="close_img_02"
-                    alt=""
-                  />
-                </button>
-              </div>
-              <!-- 탈퇴하기 -->
+          <div class="modify__modal_bg">
+            <div class="modify__modal_box">
+              <h2 class="h2">회원탈퇴</h2>
               <form action="">
-                <h2>회원 탈퇴</h2>
-                <ul class="elimination_ul">
+                <ul class="ul__box">
                   <li>😊 가입된 회원정보가 모두 삭제됩니다.</li>
                   <li>😊 작성하신 게시물은 삭제되지 않습니다.</li>
                   <li>
@@ -246,8 +238,10 @@
                   <li>😊 회원 탈퇴를 진행하시겠습니까?</li>
                   <br />
                 </ul>
-                <button class="elimination__Close">취소</button>
-                <button class="elimination__elimination">탈퇴하기</button>
+                <div class="btn__box">
+                  <button class="close_01" id="close_btn" class="">취소</button>
+                  <button class="delete_btn">탈퇴하기</button>
+                </div>
               </form>
             </div>
           </div>
@@ -257,6 +251,8 @@
       <footer></footer>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="../script/modal.js"></script>
     <script src="../script/elimination.js"></script>
   </body>
 </html>

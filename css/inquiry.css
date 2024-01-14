@@ -1,11 +1,4 @@
 /* 1 : 1 문의 내역 */
-.main__mypage {
-  width: 1300px;
-  margin: 0 auto;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-between;
-}
 
 /* 폰트 설정 */
 @font-face {
@@ -14,14 +7,6 @@
     format("woff");
   font-weight: normal;
   font-style: normal;
-}
-
-* {
-  font-family: "GmarketSansMedium";
-}
-#a {
-  text-decoration: none;
-  color: #040404;
 }
 
 /* 마이페이지 메뉴 리스트 */
@@ -255,9 +240,9 @@
 }
 
 .modal_body {
-  width: 500px;
+  width: 370px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 32px;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -282,14 +267,19 @@
 }
 
 .close_box {
-  float: right;
+  width: 350px;
+  display: flex;
+  justify-content: end;
+  padding: 0;
 }
+
 .close {
   background-color: white;
   border-color: white;
   border: none;
   outline: none;
   cursor: pointer;
+  padding: 0;
 }
 .close:focus {
   background-color: white;
@@ -409,6 +399,7 @@
   background-color: #96dcdc;
   border: none;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn_modify::before {
