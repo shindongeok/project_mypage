@@ -1,3 +1,4 @@
+// 회원탈퇴 모달창 띄우고 닫기
 $(function () {
   $(".btn_open_elimination").click(function () {
     $(".modify__modal_bg").fadeIn();
@@ -8,6 +9,7 @@ $(function () {
   });
 });
 
+// 회원수정 창 달력
 $(document).ready(function () {
   var now = new Date();
   var year = now.getFullYear();
