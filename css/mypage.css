@@ -31,7 +31,7 @@
 /* 마이페이지 메뉴리스트 */
 
 .mypage__my_box {
-  margin-top: 100px;
+  margin-top: 10px;
   width: 95%;
   display: flex;
   justify-content: center;
