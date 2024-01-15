@@ -394,6 +394,16 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.address_name_data_01 {
+  width: 300px;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.div {
+  border-left: 1px solid #d4d4d4;
+}
+
 .address_section_list_box {
   border-left: 1px solid #d4d4d4;
 }
