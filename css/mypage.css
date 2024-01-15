@@ -269,15 +269,23 @@
   height: 80px;
   border-radius: 50%;
 }
-
-.camera_btn {
-  border-radius: 50px;
-  border: 1px solid #d4d4d4;
-  background-color: white;
+#file_01 {
+  display: none;
 }
+.camera_background {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #040404;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn_box {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 
 .member_img_box {
@@ -285,10 +293,8 @@
 }
 .figcaption {
   position: absolute;
-  left: 50px;
-  right: px;
-
-  bottom: 10px;
+  left: 55px;
+  bottom: 5px;
 }
 
 .input_box {

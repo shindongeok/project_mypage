@@ -261,16 +261,13 @@
 }
 .btn {
   background-color: white;
+  border-radius: 5px;
 }
 .btn:hover {
   background-color: #64c8c8;
   font-family: "GmarketSansMedium";
   border: 1px solid #64c8c8;
   cursor: pointer;
-}
-#a {
-  text-decoration: none;
-  color: #040404;
 }
 
 /* 회원수정 모달창======================== */
@@ -350,8 +347,8 @@
   display: none;
 }
 .camera_background {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: 1px solid #040404;
   background-color: white;
@@ -360,15 +357,9 @@
   align-items: center;
 }
 
-/* .camera_btn {
-  border-radius: 50px;
-
-  border: 1px solid #d4d4d4;
-  background-color: white;
-} */
 .btn_box {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .member_img_box {
