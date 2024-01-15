@@ -216,7 +216,18 @@
 .file {
   padding-top: 20px;
   padding-left: 155px;
+  display: none;
 }
+
+.file_img_01 {
+  width: 70px;
+  height: 70px;
+}
+.file_img_02 {
+  width: 70px;
+  height: 70px;
+}
+
 .member_img_box {
   position: relative;
 }
@@ -335,15 +346,29 @@
   height: 80px;
   border-radius: 50%;
 }
+#file_01 {
+  display: none;
+}
+.camera_background {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #040404;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.camera_btn {
+/* .camera_btn {
   border-radius: 50px;
+
   border: 1px solid #d4d4d4;
   background-color: white;
-}
+} */
 .btn_box {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
 }
 
 .member_img_box {
@@ -351,10 +376,8 @@
 }
 .figcaption {
   position: absolute;
-  left: 50px;
-  right: px;
-
-  bottom: 10px;
+  left: 55px;
+  bottom: 5px;
 }
 
 .input_box {
