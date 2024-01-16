@@ -8,5 +8,5 @@ btnOpenModalTest.addEventListener("click", () => {
 });
 
 closeTest.addEventListener("click", () => {
-  modal.style.display = "none";
+  modalTest.style.display = "none";
 });
